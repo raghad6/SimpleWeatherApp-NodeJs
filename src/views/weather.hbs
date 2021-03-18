@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/src/styles/weather.css">
+</head>
+
+{{>navbar}}
+
+<body>
+  <h2> tab on Image to view your weather Description for your city </h2>
+  <div class="container">
+    <img src="https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/810/f/weather.jpg" class="image">
+    <div class="overlay">
+      <div class="text">
+        Description : {{desc}}
+        <br>
+        Temperature : {{temp}}
+        <br>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
